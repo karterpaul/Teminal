@@ -22,6 +22,7 @@
 	  term = $('body').terminal(function(command, term) {
               
 			   
+		console.log("commad:"+command);
 				
         if ($.trim(command) !== '')
 		{     
@@ -104,6 +105,7 @@
 				
 				},
         name: 'js_demo',
+		clear: false,
         height: 200,
         prompt: 'js> ',
 		
